@@ -10,12 +10,14 @@ SAVEHIST=10000
 
 # scripts & helpers
 source ~/.zplug/init.zsh
+source ~/.dotfiles/scripts/aliases.sh
 
 # plugins
 #zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
+zplug "Tarrasch/zsh-bd"
 #zplug "desyncr/auto-ls"
 #zplug "djui/alias-tips"
 
@@ -47,4 +49,3 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 #[[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh" --no-use
 
 eval "$(starship init zsh)"
-

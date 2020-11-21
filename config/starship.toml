@@ -1,0 +1,98 @@
+format = """\
+  $directory\
+  $git_branch$git_commit$git_state$git_status\
+  $nodejs$python$rust\
+  \n$username$hostname $character\
+"""
+
+[username]
+style_user = "bold bright-green"
+format = "[$user@]($style)"
+
+[hostname]
+style = "bold bright-green"
+format = "[$hostname]($style)"
+[aws]
+symbol = " "
+
+[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
+threshold = 10
+style = "red"
+
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+threshold = 30
+style = "yellow"
+
+[battery]
+full_symbol = " "
+charging_symbol = " "
+discharging_symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+disabled = true
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+
+

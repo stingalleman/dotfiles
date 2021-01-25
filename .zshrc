@@ -39,7 +39,8 @@ bindkey '^[[3~' delete-char
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' menu select
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export GOPATH="$HOME/.go"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$GOPATH/.bin:$PATH"
 
 # Add default node to path
 #export PATH=~/.nvm/versions/node/v12.16.1/bin:$PATH

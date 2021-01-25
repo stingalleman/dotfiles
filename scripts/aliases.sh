@@ -1,5 +1,9 @@
 # SSH servers
 alias serv='ssh vps.alleman.tech'
+alias dev='ssh dev-arch-vm'
+
+# Curl
+alias curltime="curl -w \"@$HOME/.dotfiles/misc/curltime.txt\" -o /dev/null -s "
 
 # Github
 alias gc='git commit'

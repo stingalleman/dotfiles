@@ -12,12 +12,13 @@ alias gl='git log --date=short --color --graph --pretty=format:'\''%Cgreen[%Cres
 
 # LS
 alias ls='lsd'
-alias lss='gls --color=auto --group-directories-first'
-alias la='ls -A'
-alias l='ls -la'
+alias lss='ls'
+alias la='lsd -A'
+alias l='lsd -la'
 
 # Verbose copyin1g
 alias cp='cp -iv'
 
 # Vim
 alias vi='vim'
+alias vim='echo tis micro ouwe'

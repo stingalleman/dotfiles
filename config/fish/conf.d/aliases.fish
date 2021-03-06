@@ -23,3 +23,6 @@ alias cp='cp -iv'
 # Vim
 alias vi='vim'
 alias vim='echo tis micro ouwe'
+
+# node
+alias pscripts='jq .scripts package.json'

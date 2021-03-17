@@ -6,6 +6,7 @@ alias dev='ssh dev-arch-vm'
 alias curltime="curl -w \"@$HOME/.dotfiles/misc/curltime.txt\" -o /dev/null -s "
 
 # Github
+alias gd='git diff | bat'
 alias gc='git commit'
 alias gcc='git stage . ; git commit'
 alias gcm='git commit -m'
@@ -25,7 +26,7 @@ alias vi='vim'
 alias vim='echo tis micro ouwe'
 
 # node
-alias pscripts='jq .scripts package.json'
+alias pscripts='jq .scripts package.json | bat -l json'
 
 # TC
 alias tc-compose='docker-compose --env-file /home/server/projects/tribecamp/tribecamp/.env  -f /home/server/projects/tribecamp/tribecamp/docker/db/docker-compose.yml -f /home/server/projects/tribecamp/tribecamp/docker/development/docker-compose.yml -f /home/server/projects/tribecamp/tribecamp/docker/kong/docker-compose.yml -p tc '

@@ -21,10 +21,6 @@ alias l='lsd -la'
 # Verbose copyin1g
 alias cp='cp -iv'
 
-# Vim
-alias vi='vim'
-alias vim='echo tis micro ouwe'
-
 # node
 alias pscripts='jq .scripts package.json | bat -l json'
 

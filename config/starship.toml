@@ -7,7 +7,6 @@ $git_commit\
 $git_state\
 $git_status\
 $hg_branch\
-$docker_context\
 $package\
 $cmake\
 $dart\
@@ -40,7 +39,6 @@ $crystal\
 $cmd_duration\
 $custom\
 $line_break\
-$lua\
 $jobs\
 $battery\
 $time\
@@ -82,9 +80,6 @@ symbol = " "
 [dart]
 symbol = " "
 
-[docker]
-symbol = " "
-
 [elixir]
 symbol = " "
 
@@ -96,9 +91,6 @@ symbol = " "
 
 [golang]
 symbol = " "
-
-[haskell]
-symbol = " "
 
 [hg_branch]
 symbol = " "

@@ -30,3 +30,6 @@ alias pscripts='jq .scripts package.json | bat -l json'
 
 # TC
 alias tc-compose='docker-compose --env-file /home/server/projects/tribecamp/tribecamp/.env  -f /home/server/projects/tribecamp/tribecamp/docker/db/docker-compose.yml -f /home/server/projects/tribecamp/tribecamp/docker/development/docker-compose.yml -f /home/server/projects/tribecamp/tribecamp/docker/kong/docker-compose.yml -p tc '
+
+# fun
+alias jesse='curl -s https://jesse.frij.link/ | bash | cowsay'

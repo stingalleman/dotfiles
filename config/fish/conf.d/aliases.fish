@@ -18,6 +18,10 @@ alias lss='ls'
 alias la='lsd -A'
 alias l='lsd -la'
 
+# tar
+alias untar='tar -xvf'
+alias ungtar='tar -xzvf'
+
 # Verbose copyin1g
 alias cp='cp -iv'
 

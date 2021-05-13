@@ -6,6 +6,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   ln -sfvi ~/.dotfiles/config/fish/ ~/.config/fish
   ln -sfvi ~/.dotfiles/config/starship.toml ~/.config/starship.toml
+  ln -sfvi ~/.dotfiles/home/.gitconfig ~/.gitconfig
 else
   echo "UNSUPPORTED OS!! ($OSTYPE)"
 fi

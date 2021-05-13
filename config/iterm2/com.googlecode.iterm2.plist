@@ -909,22 +909,30 @@
 	<string>045E04AB-C2FC-442A-952B-B0503660A131</string>
 	<key>DimInactiveSplitPanes</key>
 	<true/>
+	<key>DimOnlyText</key>
+	<true/>
+	<key>DisableFullscreenTransparency</key>
+	<false/>
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>EnableProxyIcon</key>
-	<false/>
+	<true/>
+	<key>FocusFollowsMouse</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideMenuBarInFullscreen</key>
 	<true/>
 	<key>HideScrollbar</key>
-	<false/>
+	<true/>
 	<key>HideTab</key>
 	<true/>
 	<key>HideTabNumber</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>IRMemory</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -3006,6 +3014,8 @@
 	<false/>
 	<key>PassOnControlClick</key>
 	<true/>
+	<key>PerPaneBackgroundImage</key>
+	<true/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -3056,13 +3066,15 @@
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
-	<true/>
+	<false/>
 	<key>ShowSessionRestoredBanner</key>
 	<false/>
+	<key>SmartPlacement</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.080719119038821174</real>
+	<real>0.33843298481237932</real>
 	<key>StatusBarPosition</key>
 	<integer>1</integer>
 	<key>StretchTabsToFillBar</key>
@@ -3075,16 +3087,19 @@
 	<integer>5</integer>
 	<key>TerminalVMargin</key>
 	<integer>4</integer>
+	<key>ThreeFingerEmulates</key>
+	<true/>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Actions</string>
+		<string>Jobs</string>
+		<string>Recent Directories</string>
 	</array>
 	<key>UseBorder</key>
 	<true/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>WindowNumber</key>
-	<false/>
+	<true/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>kCPFavoritesUserDefaultsKey</key>

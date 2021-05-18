@@ -12,6 +12,11 @@ alias gcc='git stage . ; git commit'
 alias gcm='git commit -m'
 alias gl='git log --date=short --color --graph --pretty=format:\'''%Cgreen[%Creset%h%Cgreen]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)%Creset\''' --abbrev-commit'
 
+# iTerm2
+alias download='it2dl'
+alias upload='it2ul'
+alias clipb='it2copy'
+
 # LS
 alias ls='lsd'
 alias lss='ls'

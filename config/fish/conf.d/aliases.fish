@@ -42,3 +42,6 @@ alias sgrun='sudo go run .'
 
 # fun
 alias jesse='curl -s https://jesse.frij.link/ | bash | cowsay'
+
+# unlock gpg
+alias unlock='echo | gpg --sign'

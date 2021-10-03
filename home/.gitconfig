@@ -1,16 +1,16 @@
 [user]
 	email = stingalleman@icloud.com
 	name = Sting Alleman
-	signingKey = 08B75EFCC92B3604544D2F53C1BAB8E7C4650BA6
+	signingkey = F0093AF53D31BC67
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 [commit]
-	gpgsign = false
+	gpgsign = true
 [gpg]
-	program = /usr/local/MacGPG2/bin/gpg
+	program = /opt/homebrew/bin//gpg
 [tag]
 	forceSignAnnotated = true
 [init]

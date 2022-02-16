@@ -8,7 +8,6 @@ alias curltime="curl -w \"@$HOME/.dotfiles/misc/curltime.txt\" -o /dev/null -s "
 # Github
 alias gd='git diff | bat'
 alias gc='git commit'
-alias gcc='git stage . ; git commit'
 alias gcm='git commit -m'
 alias gl='git log --date=short --color --graph --pretty=format:\'''%Cgreen[%Creset%h%Cgreen]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)%Creset\''' --abbrev-commit'
 

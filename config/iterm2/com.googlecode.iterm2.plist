@@ -10,8 +10,16 @@
 	<false/>
 	<key>AutoHideTmuxClientSession</key>
 	<true/>
+	<key>BracketedPasteMode</key>
+	<true/>
 	<key>CheckTestRelease</key>
 	<false/>
+	<key>ClosingTmuxTabKillsTmuxWindows</key>
+	<true/>
+	<key>ClosingTmuxTabKillsTmuxWindows_selection</key>
+	<integer>1</integer>
+	<key>ConvertDosNewlines</key>
+	<true/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>One Dark</key>
@@ -919,8 +927,12 @@
 	<false/>
 	<key>EnableProxyIcon</key>
 	<true/>
+	<key>EscapeShellCharsWithBackslash</key>
+	<false/>
 	<key>FocusFollowsMouse</key>
 	<true/>
+	<key>HTMLTabTitles</key>
+	<false/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideMenuBarInFullscreen</key>
@@ -935,6 +947,8 @@
 	<true/>
 	<key>IRMemory</key>
 	<integer>0</integer>
+	<key>MaxVertically</key>
+	<true/>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -4053,6 +4067,12 @@
 	<integer>2</integer>
 	<key>PassOnControlClick</key>
 	<true/>
+	<key>PasteSpecialRegex</key>
+	<string></string>
+	<key>PasteSpecialSubstitution</key>
+	<string></string>
+	<key>PasteSpecialUseRegexSubstitution</key>
+	<false/>
 	<key>PerPaneBackgroundImage</key>
 	<true/>
 	<key>PointerActions</key>
@@ -4105,7 +4125,7 @@
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
-	<false/>
+	<true/>
 	<key>ShowSessionRestoredBanner</key>
 	<false/>
 	<key>SmartPlacement</key>
@@ -4113,7 +4133,7 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.33843298481237932</real>
+	<real>0.120554534252041</real>
 	<key>StatusBarPosition</key>
 	<integer>1</integer>
 	<key>StretchTabsToFillBar</key>

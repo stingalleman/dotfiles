@@ -1,14 +1,14 @@
 [user]
 	email = stingalleman@icloud.com
 	name = Sting Alleman
-	signingkey = 400F66EB
+	#signingkey = 400F66EB
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 [commit]
-	gpgsign = true
+	#gpgsign = true
 [gpg]
 	program = gpg
 [tag]

@@ -923,6 +923,8 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>EnableAPIServer</key>
+	<true/>
 	<key>EnableDivisionView</key>
 	<false/>
 	<key>EnableProxyIcon</key>
@@ -949,6 +951,10 @@
 	<integer>0</integer>
 	<key>MaxVertically</key>
 	<true/>
+	<key>NeverWarnAboutShortLivedSessions_045E04AB-C2FC-442A-952B-B0503660A131</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_045E04AB-C2FC-442A-952B-B0503660A131_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>

@@ -32,9 +32,6 @@ alias cp='cp -iv'
 # node
 alias pscripts='jq .scripts package.json | bat -l json'
 
-# TC
-alias tc-compose='docker-compose --env-file /home/server/projects/tribecamp/tribecamp/.env  -f /home/server/projects/tribecamp/tribecamp/docker/db/docker-compose.yml -f /home/server/projects/tribecamp/tribecamp/docker/development/docker-compose.yml -f /home/server/projects/tribecamp/tribecamp/docker/kong/docker-compose.yml -p tc '
-
 # golang
 alias grun='go run .'
 alias sgrun='sudo go run .'
@@ -44,3 +41,7 @@ alias jesse='curl -s https://jesse.frij.link/ | bash | cowsay'
 
 # unlock gpg
 alias unlock='echo | gpg --sign'
+
+# DNS
+alias flushdns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+

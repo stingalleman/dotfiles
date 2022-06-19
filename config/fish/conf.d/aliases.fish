@@ -45,3 +45,8 @@ alias unlock='echo | gpg --sign'
 # DNS
 alias flushdns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
 
+# Vim
+alias vim='nvim'
+
+# Kubernetes 
+alias k=kubectl

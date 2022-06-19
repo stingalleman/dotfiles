@@ -1,4 +1,4 @@
-export EDITOR="micro"
+export EDITOR="nvim"
 export GOPATH="$HOME/.go"
 
 export CONTAINERS_PATH="$HOME/containers"

@@ -20,6 +20,8 @@
 	<integer>1</integer>
 	<key>ConvertDosNewlines</key>
 	<true/>
+	<key>CopySelection</key>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>One Dark</key>
@@ -929,6 +931,8 @@
 	<false/>
 	<key>EnableProxyIcon</key>
 	<true/>
+	<key>EnterCopyModeAutomatically</key>
+	<false/>
 	<key>EscapeShellCharsWithBackslash</key>
 	<false/>
 	<key>FocusFollowsMouse</key>

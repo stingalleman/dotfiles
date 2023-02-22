@@ -50,3 +50,9 @@ alias vim='nvim'
 
 # Kubernetes 
 alias k=kubectl
+alias kusgen='rm kustomization.yaml | kustomize create --autodetect --recursive'
+
+# esp-idf
+alias get-idf='source /Users/stingalleman/.esp/esp-idf/export.fish'
+
+alias irc='ssh server@gemairo.local.boem -t screen -dr 681483.pts-0.gemairo'

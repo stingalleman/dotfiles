@@ -51,6 +51,9 @@ alias vim='nvim'
 # Kubernetes 
 alias k=kubectl
 alias kusgen='rm kustomization.yaml | kustomize create --autodetect --recursive'
+alias kum='kusgen'
+alias encrypt='sops --encrypt --in-place '
+alias decrypt='sops --decrypt --in-place '
 
 # esp-idf
 alias get-idf='source /Users/stingalleman/.esp/esp-idf/export.fish'
